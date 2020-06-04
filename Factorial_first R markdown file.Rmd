@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 
-<b> This is an R markdown document where a simple program written in R for calculating factorial is included. </b> 
+<b> This is an **R markdown** document where a simple program written in R for calculating factorial is included. </b> 
 
 
 In this program the variables are -
