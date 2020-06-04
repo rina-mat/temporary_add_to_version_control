@@ -1,0 +1,50 @@
+---
+title: "A Simple Code for calculating factorial"
+author: "Rina Paul"
+date: "6/4/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+<b> This is an R markdown document where a simple program written in R for calculating factorial is included. </b> 
+
+
+In this program the variables are -
+
+1. inputfact - That'll be taken from user of which the factorial would be calculated.
+2. cnt - loop count
+3. Product - calculated and updated in each loop
+
+Finally we get the factorial of a number using this program. 
+The R code for this program is attached below.
+
+```{
+#Factorial Calculation
+
+inputfact <- readline(prompt = "Insert a number to get the factorial(of the number): ")
+
+cnt <- 2
+product <- 1
+
+repeat{
+  
+  product = product * cnt
+  cnt <- cnt+1
+  
+  
+  if (cnt > inputfact){
+    break
+  }
+    
+  
+}
+
+cat("The factorial of ", inputfact, "is", product)}
+summary(cars)
+```
+
